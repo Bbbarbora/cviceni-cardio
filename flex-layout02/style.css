@@ -24,3 +24,20 @@ body {
 }
 
 /* ---------------------------------------------------- */
+
+.kontejner {
+  display: flex;
+}
+
+.pravy {
+  display: flex;
+  flex-direction: column;
+}
+
+.horni {
+  flex-basis:50%;
+}
+
+.dolni {
+  flex: 1 1 50%;
+}

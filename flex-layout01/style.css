@@ -7,23 +7,34 @@
 
 body {
   font-family: sans-serif;
+
 }
 
 .sloupec {
   padding: 20px;
 }
 
+.kontejner {
+  display: flex;
+}
 .hlavicka {
   background-color: #2ecc71;
+
 }
 .hlavni {
   background-color: #f1c40f;
+  order: 1;
+  flex: 1 1 auto;
 }
 .levy {
   background-color: #3498db;
+  order: 0;
+  flex: 1 1 25%;
 }
 .pravy {
   background-color: #e74c3c;
+  order: 2;
+  flex: 0 0 20%;
 }
 .paticka {
   background-color: #9b59b6;
